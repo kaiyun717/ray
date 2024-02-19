@@ -1,12 +1,6 @@
 """
-Proximal Policy Optimization (PPO)
+Proximal Policy Optimization - Lagrangian Augmented (PPO-LA)
 ==================================
-
-This file defines the distributed Trainer class for proximal policy
-optimization.
-See `ppo_[tf|torch]_policy.py` for the definition of the policy loss.
-
-Detailed documentation: https://docs.ray.io/en/master/rllib-algorithms.html#ppo
 """
 
 import logging
